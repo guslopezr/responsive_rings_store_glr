@@ -47,7 +47,7 @@ body {
     background-color: rgb(59, 59, 62);
     grid-area: sidebar1;
     color: white;
-    height: 92vh;
+    height: 89vh;
     padding: 2vh;
     text-align: center;
 }
@@ -69,6 +69,7 @@ body {
     flex-wrap: wrap;
     gap: 2px;
     margin: 0.2vh;
+    padding-left: 15px;
 }
 
 .footer {
@@ -83,7 +84,7 @@ body {
     color: rgb(234, 226, 226);
     display: flex;
     flex-direction: column;
-    width: 33vh;
+    width: 30vh;
     height: 52vh;
     margin: 1%;
     margin-left: 3%;
