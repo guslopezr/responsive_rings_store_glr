@@ -13,8 +13,8 @@ body {
 .container-grid {
     display: grid;
     grid-template-columns: 1fr 6fr;
-    grid-template-rows: 1fr 14fr 1fr;
-    grid-template-areas: "sidebar nav" "sidebar main";
+    grid-template-rows: 1fr 14fr 1fr 1fr;
+    grid-template-areas: "sidebar nav" "sidebar main" "sidebar main2";
     height: 100vh;
 }
 
@@ -47,7 +47,7 @@ body {
     background-color: rgb(59, 59, 62);
     grid-area: sidebar1;
     color: white;
-    height: 89vh;
+    height: 95vh;
     padding: 2vh;
     text-align: center;
 }
@@ -70,6 +70,23 @@ body {
     gap: 2px;
     margin: 0.2vh;
     padding-left: 15px;
+}
+
+.main2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.num {
+    border: 2px;
+    border-color: black;
+    color: whitesmoke;
+    background-color: gray;
+    width: 7vh;
+    border-style: inset;
+    text-align: center;
+    padding: 2vh;
 }
 
 .footer {
@@ -176,6 +193,9 @@ body {
         height: 70vh;
         align-items: center;
         border-radius: 3%;
+    }
+    .main2 {
+        display: none;
     }
 }
 
