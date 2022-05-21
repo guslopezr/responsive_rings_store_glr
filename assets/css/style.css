@@ -19,9 +19,10 @@ a {
 .container-grid {
     display: grid;
     grid-template-columns: 1fr 6fr;
-    grid-template-rows: 1fr 14fr 1fr 1fr;
+    grid-template-rows: 1fr 8fr 1fr 1.1fr;
     grid-template-areas: "sidebar nav" "sidebar main" "sidebar main2";
-    height: 100vh;
+    height: 95vh;
+    padding: 2vh;
 }
 
 .nav {
@@ -55,14 +56,13 @@ a {
     background-color: rgb(51, 51, 52);
     grid-area: sidebar;
     color: rgb(233, 228, 228);
-    height: 92vh;
+    height: 95vh;
 }
 
 .sidebar1 {
     background-color: rgb(37, 37, 39);
     grid-area: sidebar1;
     color: white;
-    height: 100vh;
     padding: 2vh;
     text-align: center;
 }
@@ -95,6 +95,7 @@ a {
     margin: 0.2vh;
     padding-left: 7px;
     justify-content: center;
+    overflow: auto;
 }
 
 .main2 {
@@ -194,9 +195,10 @@ a {
     .container-grid {
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 10fr 1fr 1fr;
         grid-template-areas: "sidebar" "nav" "main" "main2" "footer";
-        height: 100vh;
+        height: 95vh;
+        padding: 1vh;
     }
     .sidebar {
         height: 50vh;
@@ -246,6 +248,7 @@ a {
         display: flex;
         justify-content: center;
         padding: 3vh;
+        height: 70vh;
     }
     .main2 {
         display: flex;
